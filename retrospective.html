@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ballot Guide — How the 2026 pilot went</title>
+<meta name="description" content="The public record of the 2026 Ballot Guide pilot in Wisconsin and Indiana: what we built, the verified numbers, what worked, and the honest lessons behind a planned 2028 return.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:light;--bg:#ffffff;--paper:#f6f7f9;--ink:#14141d;--muted:#565d6b;--quiet:#5a6270;--line:#e0e4ec;--brand:#1b2f4f;--brand2:#0f1f36;--brandWash:#e9eff6;--accent:#d97706;--accent2:#b45309;--shadow:0 18px 50px rgba(27,47,79,.14);--sans:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;--serif:"Newsreader",Georgia,serif}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-family:var(--sans);color:var(--ink);background:var(--bg);line-height:1.6}
+.masthead{border-bottom:1px solid var(--line)}
+.masthead-in{max-width:760px;margin:0 auto;padding:18px 20px;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.wordmark{font-family:var(--serif);font-weight:600;font-size:22px;color:var(--brand2)}
+.tagline{color:var(--quiet);font-size:14px}
+main{max-width:760px;margin:0 auto;padding:40px 20px 24px}
+.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:12px;font-weight:700;color:var(--accent2);margin:0 0 10px}
+h1{font-family:var(--serif);font-weight:600;font-size:40px;line-height:1.12;color:var(--brand2);margin:0 0 16px}
+h2{font-family:var(--serif);font-weight:600;font-size:27px;color:var(--brand2);margin:40px 0 10px}
+h3{font-size:17px;margin:22px 0 6px;color:var(--brand2)}
+.lede{font-size:18px;margin:0 0 14px}
+p{margin:0 0 14px}
+.muted{color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:22px 0 6px}
+.stat{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:16px 14px;text-align:center}
+.stat b{display:block;font-family:var(--serif);font-size:30px;color:var(--brand2);line-height:1.1}
+.stat span{font-size:13px;color:var(--muted)}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th,td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:right}
+th:first-child,td:first-child{text-align:left}
+thead th{color:var(--brand2);border-bottom:2px solid var(--line2,#b9c0cf)}
+.note{font-size:13px;color:var(--quiet)}
+.callout{background:var(--brandWash);border-radius:14px;padding:18px 20px;margin:22px 0}
+.callout p:last-child{margin-bottom:0}
+a{color:var(--brand);font-weight:600}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+footer{border-top:1px solid var(--line);margin-top:48px}
+.footer-in{max-width:760px;margin:0 auto;padding:20px;color:var(--quiet);font-size:13px}
+@media (max-width:560px){.stats{grid-template-columns:repeat(2,1fr)}h1{font-size:33px}table{font-size:13.5px}th,td{padding:7px 6px}}
+</style>
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-in">
+    <span class="wordmark">Ballot Guide</span>
+    <span class="tagline">Your ballot, without the homework.</span>
+  </div>
+</header>
+<main>
+  <p class="eyebrow">2026 Pilot · Retrospective</p>
+  <h1>How the 2026 pilot went</h1>
+  <p class="lede">In the fall of 2026 we piloted a nonpartisan voter guide in two states — <strong>My Wisconsin Ballot</strong> and <strong>My Indiana Ballot</strong> — for the November 3 general election. One product, two editions, built entirely from official sources.</p>
+  <p>The guides have now closed. This page is the pilot's public record: what we built, the numbers we can verify, what worked, and what we learned the hard way. It is also the evidence base for what comes next — a redesigned Ballot Guide, planned for all 50 states in the 2028 cycle.</p>
+
+  <h2>What we built</h2>
+  <p>Enter your address and the guide assembled <em>your</em> ballot: every race you were actually voting on, the candidates side by side, official party marks where parties have them, why-they're-running statements, debate and town-hall highlights, and the deadlines and rules for voting in your state. No endorsements, no rankings, no recommended candidates — the homework done, the decision left to the voter.</p>
+  <p>The coverage, assembled race by race from official filings and state sources:</p>
+  <div class="stats">
+    <div class="stat"><b>445</b><span>races covered</span></div>
+    <div class="stat"><b>752</b><span>candidates listed</span></div>
+    <div class="stat"><b>2</b><span>states (WI &amp; IN)</span></div>
+    <div class="stat"><b>0</b><span>endorsements made</span></div>
+  </div>
+  <p class="note">Wisconsin: 277 races, 428 candidates. Indiana: 168 races, 324 candidates.</p>
+
+  <h2>The numbers</h2>
+  <p>We counted with our own first-party counters — no advertising trackers deciding what a "visit" means. The counters ran from October 14, 2026 (the day the store was connected; no first-party data exists before that date) through November 13, 2026.</p>
+  <table>
+    <thead><tr><th>Edition</th><th>Visits</th><th>Ballots viewed</th><th>Shares</th><th>Visit → ballot</th><th>Share rate</th></tr></thead>
+    <tbody>
+      <tr><td>Wisconsin</td><td>1,006</td><td>355</td><td>23</td><td>35.3%</td><td>6.5%</td></tr>
+      <tr><td>Indiana</td><td>1,069</td><td>508</td><td>21</td><td>47.5%</td><td>4.1%</td></tr>
+      <tr><td><strong>Combined</strong></td><td><strong>2,075</strong></td><td><strong>863</strong></td><td><strong>44</strong></td><td><strong>41.6%</strong></td><td><strong>5.1%</strong></td></tr>
+    </tbody>
+  </table>
+  <p>Voters also left feedback: a Net Promoter Score of <strong>37</strong> (27 responses; two-thirds promoters). With a sample that small, treat the score as directional only — we do.</p>
+  <p class="note">One day of counts (October 22) is missing from these totals — see the meter lesson below. The figures above are a floor, not an exact census.</p>
+
+  <h2>What worked</h2>
+  <h3>The homework framing</h3>
+  <p>About 4 in 10 visits turned into a viewed ballot — 47.5% in Indiana. For a tool with no advertising and no growth tricks, that conversion says the offer landed: voters don't want more politics; they want their specific ballot, explained plainly, in a few minutes.</p>
+  <h3>Official sources, or nothing</h3>
+  <p>Every race and candidate traced back to official state sources. That discipline is slower than scraping aggregators, and it is the whole point: a voter guide that is wrong about one race has failed at the only job it has.</p>
+  <h3>A quality bar with teeth</h3>
+  <p>Every reported bug got an ID, a fix, and an independent verification with screenshot proof before it was called resolved — the person who built a fix never got to grade it. The standard we held: the voter is never the regression tester.</p>
+
+  <h2>What we learned</h2>
+  <h3>1. The quiz wasn't ready, so we removed it</h3>
+  <p>A candidate-matching quiz was part of the original design. Mid-cycle, we retired it rather than keep a feature we couldn't stand behind — a quiz that matches voters to candidates has to be defensible in every answer, and ours wasn't there yet. A real voter quiz is a headline design problem for 2028, and it will be designed as one, not bolted on.</p>
+  <h3>2. Watch your meters — someone is always spending them</h3>
+  <p>Our metrics ran on a free-tier database with a command cap. Automated traffic burned through roughly half a million commands in about a week, the cap silently rejected writes, and one full day of counts (October 22) was lost while the dashboard cheerfully reported success. We fixed the rules — bot gate, leaner writes, a hard budget cap — but the lesson is permanent: meter everything, alert on the meter itself, and archive your final numbers <em>before</em> you switch anything off.</p>
+  <h3>3. Bots are most of the traffic</h3>
+  <p>In the last full hosting cycle we measured, these two small sites accounted for about three-quarters of all requests across our hosting account — some 846,000 requests in under a month — and the overwhelming majority were automated, not voters. Any 50-state version needs caching and bot discipline designed in from day one, not discovered in week three.</p>
+  <h3>4. Two states by hand doesn't scale to fifty</h3>
+  <p>The 2026 data operation was human-supervised, state by state, sweep by sweep. That craft is why the data was trustworthy — and it does not multiply by 25. The 2028 premise follows directly: a fully automated pipeline from official sources to verified guides, holding the same quality bar, or it doesn't ship.</p>
+
+  <h2>Why there are no winners on this page</h2>
+  <p>Deliberately. We prepared winner-marking under a strict rule — only races a recognized authority had called — but the guides closed without publishing winners. Results belong to the officials who certify them, and both closing pages link straight to them: the <a href="https://myvote.wi.gov/en-us/Election-Results">Wisconsin Elections Commission</a> and the <a href="https://enr.indianavoters.in.gov/site/index.html">Indiana Secretary of State</a>.</p>
+
+  <div class="callout">
+    <h3 style="margin-top:0">What comes next</h3>
+    <p>The 2026 pilot added real value with hand-tended tooling — two states, assembled race by race. A 2027 design project is on the books: a 50-state, fully automated Ballot Guide for the 2028 cycle, with the real voter quiz the pilot had to cut. This page is its evidence base — the numbers it has to beat, and the lessons it doesn't get to relearn.</p>
+  </div>
+</main>
+<footer>
+  <div class="footer-in">
+    Ballot Guide · 2026 pilot retrospective. Funnel and feedback figures: the guides' first-party counters, October 14 – November 13, 2026 (NPS n=27, directional only). Race and candidate counts: the guides' 2026 data inventories. Hosting figures: final full billing-cycle read, November 12, 2026.
+  </div>
+</footer>
+</body>
+</html>
